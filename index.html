@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Conecta Rural</title>
+style.css
+</head>
+
+<body>
+
+<header>
+    <div class="logo">
+        🐂 Conecta Rural
+    </div>
+
+    <nav>
+        #inicioInício</a>
+        #saldoSaldo</a>
+        #bancosBancos</a>
+        <a href="#animais">Animais</a>
+</header>
+
+<section id="inicio" class="banner">
+
+    <h1>Conectando o Campo ao Futuro</h1>
+
+    <p>
+        Gerencie sua conta, utilize PIX e compre ou venda animais em um só lugar.
+    </p>
+
+</section>
+
+<section class="formularios">
+
+    <div class="card" id="login">
+        <h2>Login</h2>
+
+        <input type="email" placeholder="E-mail">
+
+        <input type="password" placeholder="Senha">
+
+        <button onclick="login()">
+            Entrar
+        </button>
+    </div>
+
+    <div class="card">
+        <h2>Cadastro</h2>
+
+        <input type="text" placeholder="Nome">
+
+        <input type="email" placeholder="E-mail">
+
+        <input type="password" placeholder="Senha">
+
+        <button onclick="cadastro()">
+            Cadastrar
+        </button>
+    </div>
+
+</section>
+
+<section id="saldo">
+
+    <h2>Minha Conta</h2>
+
+    <div class="saldo-box">
+
+        <h3>Saldo disponível</h3>
+
+        <span id="saldoConta">
+            R$ 0,00
+        </span>
+
+    </div>
+
+</section>
+
+<section id="bancos">
+
+    <h2>Bancos Parceiros</h2>
+
+    <div class="bancos">
+
+        <div class="banco">🏦 Nubank</div>
+        <div class="banco">🏦 Banco do Brasil</div>
+        <div class="banco">🏦 Caixa</div>
+        <div class="banco">🏦 Santander</div>
+        <div class="banco">🏦 Itaú</div>
+        <div class="banco">🏦 Bradesco</div>
+
+    </div>
+
+</section>
+
+<section class="pix">
+
+<h2>PIX</h2>
+
+<input type="text" id="chavePix" placeholder="Digite a chave PIX">
+
+<input type="number" id="valorPix" placeholder="Valor">
+
+<button onclick="enviarPix()">
+Enviar PIX
+</button>
+
+</section>
+
+<section id="animais">
+
+    <h2>Compra e Venda de Animais</h2>
+
+    <div class="animais-grid">
+
+        <div class="animal">
+            <h3>🐂 Boi Nelore</h3>
+            <p>Preço: R$ 8.500</p>
+            <button>Comprar</button>
+        </div>
+
+        <div class="animal">
+            <h3>🐄 Vaca Leiteira</h3>
+            <p>Preço: R$ 5.900</p>
+            <button>Comprar</button>
+        </div>
+
+        <div class="animal">
+            <h3>🐐 Cabra</h3>
+            <p>Preço: R$ 850</p>
+            <button>Comprar</button>
+        </div>
+
+        <div class="animal">
+            <h3>🐑 Ovelha</h3>
+            <p>Preço: R$ 1.200</p>
+            <button>Comprar</button>
+        </div>
+
+    </div>
+
+    <div class="vender">
+
+        <h3>Vender Animal</h3>
+
+        <input type="text" placeholder="Nome do animal">
+
+        <input type="number" placeholder="Preço">
+
+        <button onclick="venderAnimal()">
+            Anunciar Venda
+        </button>
+
+    </div>
+
+</section>
+
+<footer>
+    © 2026 Conecta Rural
+</footer>
+
+script.jsscript>
+
+</body>
+</html>
